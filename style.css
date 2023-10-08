@@ -1,0 +1,185 @@
+
+* {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    scroll-behavior:smooth;
+    transition: all 0.2s linear;
+    
+   
+    
+}
+.navbar {
+    display: flex;
+    position: static;
+    overflow:hidden ;
+    flex-direction: column;
+    justify-content: right;
+    z-index: 100;
+    
+    background-color: rgb(118, 66, 3);
+    font-family: 'Young Serif', serif;
+    text-decoration: solid;
+    z-index: 100;
+}
+section{
+    min-height: 100vh;
+    padding: 1rem 9%;
+    display: flex;
+    z-index: -1;
+}
+.tilt{
+   border-radius: 20%;
+   border-color: black;
+   border-top-width: 2px;
+}
+
+
+.navbar ul {
+   float: left;
+   text-align: center;
+   display: flex;
+}
+.navbar ul li a {
+   
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+   text-decoration: none;  
+}
+.navbar ul li a:hover{
+    color: rgb(131, 191, 244);
+    position: relative;
+}
+
+
+
+ .navbar li {
+    float: left;
+    padding: 20px;
+    font-size: 1.57rem;
+    color: #0e2431;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.02rem;
+    transition: width 1ms;
+    transition-delay: 1s;
+
+}
+
+li a:hover {
+    font-size: 21px;
+    text-transform: capitalize;
+    border-top: color(white);
+    border-width: 1px;
+    border-bottom: 0.2rem solid #011aff;
+    padding: 0.5rem 0;
+
+}
+.Home{
+    background-color: #0c2678;
+}
+.content {
+    font-family: 'Young Serif', serif;
+    font-size: 40px;
+    padding: 60px;
+   
+}
+.Home .content span{
+  color: rgb(5, 5, 76);
+}
+.about {
+ display: flex;
+ flex-direction: column;
+ background-color: rgb(98, 218, 164);
+}
+.aboutme{
+    font-size: 40px;
+    border-bottom: 2px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about h2{
+    font-size: 50px;
+    font-family:cursive;
+    text-shadow: 2px 1px 6px;
+}
+.content1 .me{
+    font-size: 30px;
+    font-family: 'Young Serif', serif;
+}
+ .box{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skills{
+    display: inline;
+    
+   
+}
+.bcd{
+    background-color: #147ab9;
+}
+.skills .heading span{
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Young Serif', serif;
+    border-bottom: 2px solid black;
+}
+ .skill1 p{
+      font-size: xx-large;
+}
+.Education{
+    display: block;
+    background-color: aqua;
+}
+.Education .heading span{
+    font-size: 40px;
+    border-bottom :2px solid black;
+}
+.timeline{
+    position:relative;
+   
+}
+.timeline .box{
+    background-color: rgba(0, 0, 0, 0.523);
+   color: black;
+    padding: 5px;
+    border-radius: 20px;
+    width: 60%;
+    
+}
+
+.timeline .box .inner-box{
+    background-color: rgb(236, 195, 8);
+    padding: 50px;
+    
+}
+.timeline .box.right{
+    position: relative;
+    
+}
+.inner-box h4{
+    font-size: 25px;
+    
+}
+.inner-box .abcd{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contact{
+    background-color: #f9a544;
+}
+.Contact .content h2{
+    border-bottom :2px solid black; 
+}
+.Contact .content .content1 li{
+    font-size: 20px;
+    list-style-type: disc;
+}
