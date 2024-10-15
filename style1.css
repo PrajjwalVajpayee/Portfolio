@@ -141,12 +141,14 @@ section{
     border-radius: 50%;
     position: relative;
     box-shadow: 0 0 20px cyan;
+     
 }
 
 .photo1 {
     width: 100%;
     height: auto;
     position: absolute;
+    overflow:hidden;
 
 }
 
